@@ -10,12 +10,28 @@
 <body>
   <section id="container">
     <header>
-      <ul id="mainNav">
-        <li class="logo"><a href="default.html"><img src="assets/logo.png"></a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul> <!-- end mainNav -->
+      <nav id="mainNav">
+        <ul>
+          <li class="logo"><a href="default.html"><img src="assets/logo.png"></a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav><!-- end mainNav -->
+
+      <nav id="mobileNav">
+        <figure class="logo">
+            <a href="default.html"><img src="assets/logo.png"></a>
+          </figure>
+          <figure class="hamburger">
+            <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+          </figure>
+          <ul>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact">Contact</li>
+          </ul>
+      </nav>
     </header>
 
     <section id="hero">

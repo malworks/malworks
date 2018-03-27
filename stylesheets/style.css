@@ -22,9 +22,39 @@ body {
     overflow: auto;
 }
 
+/* Main Nav and Header Styles */
+
 header {
 	grid-column: 1 / -1;
-	background-color: red;
+	position: fixed;
+  	width: 100%;
+  	background-color: #212b52;
+  	box-shadow: 0 10px 20px rgba(0,0,0,0.10), 0 6px 6px rgba(0,0,0,0.18);
+  	z-index: 100;
+}
+
+#mainNav {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+}
+
+#mainNav > * {
+	display: inline-block;
+}
+
+.logo img {
+	width: 50px;
+}
+
+#mainNav ul {
+	justify-self: end;
+	margin: 24px 40px 0 0;
+}
+
+#mainNav ul li {
+	list-style: none;
+	display: inline-block;
 }
 
 #hero {

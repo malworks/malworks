@@ -1,18 +1,43 @@
-.container {
+/* Global styles */
+
+html {
+	font-family: "lato", "helvetica", sans-serif;
+	font-size: 16px;
+	letter-spacing: 0.15em;
+	margin: 0;
+}
+
+body {
+	margin: 0;
+	overflow: auto;
+
+}
+
+#container {
     display: grid;
     grid-gap: 3px;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 40px 200px 40px;
+    grid-template-rows: auto 80vh auto auto;
+    background-color: pink;
+    overflow: auto;
 }
 
-.hero {
-    grid-column: 1 / -1;
+header {
+	grid-column: 1 / -1;
+	background-color: red;
 }
 
-.content {
+#hero {
     grid-column: 1 / -1;
+    background-color: blue;
 }
 
-.footer {
+#content {
     grid-column: 1 / -1;
+    background-color: purple;
+}
+
+footer {
+    grid-column: 1 / -1;
+    background-color: green;
 }

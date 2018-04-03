@@ -10,7 +10,6 @@ html {
 body {
 	margin: 0;
 	overflow: auto;
-
 }
 
 #container {
@@ -32,6 +31,47 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover {
+ 	font-weight: normal;
+ 	text-decoration: underline;
+ 	color: #f32773;
+ }
+
+a:active {
+ 	font-weight: normal;
+ 	text-decoration: none;
+ 	color: #ffffff;
+ }
+
+ li {
+ 	list-style: none;
+  display: inline-block;
+ }
+
+ a:link, a:visited {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover {
+ 	font-weight: normal;
+ 	text-decoration: underline;
+ 	color: #f32773;
+ }
+
+a:active {
+ 	font-weight: normal;
+ 	text-decoration: none;
+ 	color: #ffffff;
+ }
 
 /* Main Nav and Header Styles */
 
@@ -63,9 +103,9 @@ header {
 	margin: 24px 40px 0 0;
 }
 
-#mainNav ul li {
-	list-style: none;
-	display: inline-block;
+#mainNav li a {
+  font-size: 1em;
+  color: #fff;
 }
 
 /*Hero styles */
@@ -81,10 +121,34 @@ header {
 #content {
     grid-column: 1 / -1;
     background-color: purple;
-    z-index: 100;
+    z-index: 99;
 }
+
+/* Project Grid styles */
+
+#featuredProjects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    grid-template-rows: 400px 400px;
+    background-color: yellow;
+}
+
+#smallProjects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    grid-template-rows: 200px 200px;
+    background-color: orange;
+}
+
+/* Footer styles */
 
 footer {
     grid-column: 1 / -1;
     background-color: green;
+    text-align: center
+}
+
+footer ul {
+  display: inline-block;
+  padding: 0;
 }

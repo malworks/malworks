@@ -14,13 +14,13 @@ body {
 }
 
 #container {
-    display: grid;
-    grid-gap: 3px;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: auto;
-    background-color: pink;
-    overflow: auto;
-    background: url('../assets/bg.jpg') no-repeat fixed;
+  display: grid;
+  grid-gap: 3px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
+  background-color: pink;
+  overflow: auto;
+  background: url('../assets/bg.jpg') no-repeat fixed;
 	background-size: cover;
 	height: 100vh;
 }
@@ -38,10 +38,10 @@ body {
 header {
 	grid-column: 1 / -1;
 	position: fixed;
-  	width: 100%;
-  	background-color: #212b52;
-  	box-shadow: 0 10px 20px rgba(0,0,0,0.10), 0 6px 6px rgba(0,0,0,0.18);
-  	z-index: 100;
+  width: 100%;
+  background-color: #212b52;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.10), 0 6px 6px rgba(0,0,0,0.18);
+  z-index: 100;
 }
 
 #mainNav {

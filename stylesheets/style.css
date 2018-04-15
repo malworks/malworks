@@ -107,13 +107,26 @@ header {
   text-align: center;
 }
 
+#hero div {
+  color: #fff;
+}
+
+#hero div h1 {
+  font-size: 6em;
+  margin: 0;
+}
+
+#hero div h3 {
+  font-weight: normal;
+}
+
+/* Project Grid styles */
+
 #content {
     grid-column: 1 / -1;
     background-color: purple;
     z-index: 99;
 }
-
-/* Project Grid styles */
 
 #featuredProjects {
     display: grid;

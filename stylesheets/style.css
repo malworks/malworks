@@ -32,8 +32,6 @@ body {
     transform: translate(-50%, -50%);
 }
 
-}
-
 a:link, a:visited {
 	text-decoration: none;
 	color: #fff;
@@ -54,23 +52,6 @@ a:active {
  li {
  	list-style: none;
   display: inline-block;
- }
-
- a:link, a:visited {
-	text-decoration: none;
-	color: #fff;
-}
-
-a:hover {
- 	font-weight: normal;
- 	text-decoration: underline;
- 	color: #f32773;
- }
-
-a:active {
- 	font-weight: normal;
- 	text-decoration: none;
- 	color: #ffffff;
  }
 
 /* Main Nav and Header Styles */
@@ -106,7 +87,15 @@ header {
 #mainNav li a {
   font-size: 1em;
   color: #fff;
+  text-transform: uppercase;
+  margin-left: 1em;
 }
+
+#mainNav li a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #f32773;
+ }
 
 /*Hero styles */
 

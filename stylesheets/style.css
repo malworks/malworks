@@ -146,6 +146,15 @@ header {
   color: #fff;
 }
 
+#featuredProjects a:nth-child(1) {
+  background: url('../assets/diddit.jpg') no-repeat fixed;
+  background-size: cover;
+}
+
+#featuredProjects a:nth-child(2) {
+  background: url('../assets/bloc-jams.jpg') no-repeat fixed;
+  background-size: cover;
+}
 
 
 /* Footer styles */

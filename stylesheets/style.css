@@ -146,26 +146,16 @@ header {
   color: #fff;
 }
 
-#featuredProjects a:nth-child(1) {
-  background: url('../assets/diddit.jpg') no-repeat fixed;
-  background-size: cover;
+#featuredProjects figure {
+  margin: 0;
+  max-height: 100%;
+  overflow: hidden;
 }
 
-#featuredProjects a:nth-child(2) {
-  background: url('../assets/bloc-jams.jpg') no-repeat fixed;
-  background-size: cover;
-}
+#featuredProjects figure img {
+  width: 100%;
 
-#smallProjects a:nth-child(1) {
-  background: url('../assets/bloc-chat.jpg') no-repeat fixed;
-  background-size: cover;
 }
-
-#smallProjects a:nth-child(2) {
-  background: url('../assets/writing.jpg') no-repeat fixed;
-  background-size: cover;
-}
-
 
 /* Footer styles */
 

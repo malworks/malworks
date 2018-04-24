@@ -124,7 +124,6 @@ header {
 
 #content {
     grid-column: 1 / -1;
-    background-color: purple;
     z-index: 99;
 }
 
@@ -157,12 +156,64 @@ header {
 
 }
 
+/* Contact Styles */
+
+/* Contact styles */
+
+#contact {
+  background-color: #212b52;
+  margin-top: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin-top:200px;
+  margin-left:-100px;
+  margin-right:-50px;
+  -webkit-transform:rotate(-5deg);
+  -moz-transform:rotate(-5deg);
+  transform:rotate(-5deg);
+  overflow:hidden;
+  height: 60vh;
+  margin-bottom: -100px;
+}
+
+#contact h2 {
+  color: white;
+}
+
+#contact h3 {
+  color: white;
+  font-weight: normal;
+  margin: 0.5em;
+}
+
+#contact a {
+  display: inline-block;
+  margin-top: 1em;
+  text-decoration: none;
+  padding: 0.3em;
+\  transition: color 1s ease;
+  color: white;
+  transform: rotate(0deg);
+}
+
+#contact a:hover {
+  color: #F32773;
+}
+
+.contact-content {
+  transform: rotate(5deg);
+  margin-top: 15%;
+}
 /* Footer styles */
 
 footer {
     grid-column: 1 / -1;
     background-color: #e7e8e8;
     text-align: center;
+    z-index: 999;
 }
 
 footer ul {

@@ -161,11 +161,25 @@ header {
 
 footer {
     grid-column: 1 / -1;
-    background-color: green;
-    text-align: center
+    background-color: #e7e8e8;
+    text-align: center;
 }
 
 footer ul {
   display: inline-block;
   padding: 0;
+}
+
+#footer ul li i {
+  display: inline-block;
+  border-radius: 60px;
+  background-color: #F32773;
+  padding: 0.3em;
+  margin-right: 25px;
+  transition: background-color 1s ease;
+}
+
+#footer ul li i:hover {
+  background-color: #36cad5;
+  color: white;
 }

@@ -194,7 +194,7 @@ header {
   margin-top: 1em;
   text-decoration: none;
   padding: 0.3em;
-\  transition: color 1s ease;
+  transition: color 1s ease;
   color: white;
   transform: rotate(0deg);
 }
@@ -205,8 +205,10 @@ header {
 
 .contact-content {
   transform: rotate(5deg);
-  margin-top: 15%;
+  margin-top: 18%;
 }
+
+
 /* Footer styles */
 
 footer {
@@ -214,6 +216,7 @@ footer {
     background-color: #e7e8e8;
     text-align: center;
     z-index: 999;
+    color: #333;
 }
 
 footer ul {
@@ -233,4 +236,9 @@ footer ul {
 #footer ul li i:hover {
   background-color: #36cad5;
   color: white;
+}
+
+#footer p {
+  margin: 0 0 1em 0;
+  padding: 0;
 }

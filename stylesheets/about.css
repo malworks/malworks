@@ -3,11 +3,10 @@
     grid-gap: 3px;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: auto;
-    background-color: pink;
     overflow: auto;
     background: url('../assets/about-hero.jpg') no-repeat fixed;
 	background-size: cover;
-	height: 100vh;
+	height: 90vh;
 }
 
 #intro {
@@ -21,5 +20,21 @@
 }
 
 #about {
-	background-color: white;
+  background-color: #212b52;
+  margin-top: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin-top:200px;
+  margin-left:-100px;
+  margin-right:-50px;
+  -webkit-transform:rotate(-5deg);
+  -moz-transform:rotate(-5deg);
+  transform:rotate(-5deg);
+  overflow:hidden;
+  height: 60vh;
+  margin-bottom: -100px;
+}
 }

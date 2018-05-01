@@ -37,4 +37,7 @@
   height: 60vh;
   margin-bottom: -100px;
 }
+
+#content {
+	margin: 2em;
 }

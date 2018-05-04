@@ -134,7 +134,6 @@ header {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
     grid-template-rows: 200px 200px;
-    background-color: orange;
     position: relative;
 }
 

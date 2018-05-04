@@ -33,15 +33,14 @@
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  margin-top:200px;
-  margin-left:-100px;
-  margin-right:-50px;
+  margin-top: 200px;
+  margin-left: -100px;
+  margin-right: -70px;
   -webkit-transform:rotate(-5deg);
   -moz-transform:rotate(-5deg);
   transform:rotate(-5deg);
   overflow:hidden;
   height: 60vh;
-  margin-bottom: -100px;
 }
 
 #about #aboutText {
@@ -57,5 +56,9 @@
 
 #experience {
 	background-color: white;
-	z-index: 998;
+	padding-top: 100px;
+}
+
+#content #experience * {
+	color: #333;
 }

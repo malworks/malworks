@@ -17,14 +17,42 @@ body {
 	height: 90vh;
 }
 
+/* Intro & What I Do */
+
 #intro {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-  	grid-template-rows: auto;
+  grid-template-rows: auto;
+  background-color: white;
 }
 
 .whatIDo {
 	margin: 40px;
+}
+
+#intro div:first-child {
+  margin-left: 6em;
+}
+
+#intro div:last-child {
+  margin-right: 6em;
+}
+
+.whatIDo i {
+    display: inline-block;
+    border-radius: 60px;
+    background-color: #F32773;
+    padding: 0.5em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.whatIDo h3, .whatIDo h5 {
+  color: #333;
+}
+
+.whatIDo h3 {
+  font-weight: 400;
 }
 
 /* About Styles */
@@ -59,7 +87,7 @@ body {
 /* Experience Styles */
 
 #experience {
-  background-color: yellow;
+  background-color: white;
   display: flex;
   flex-direction: column;
   margin-top: 100px;
@@ -142,7 +170,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
     grid-template-rows: auto auto;
-    background: red;
+    background: #36cad5;
 }
 
 .education-section {
